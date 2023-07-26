@@ -1,4 +1,2 @@
 #include<iostream>
-
-test
-test
+using namespace std;

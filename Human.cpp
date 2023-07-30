@@ -4,15 +4,20 @@
 using std::string;
 
 Human::Human(){
-    name = 'Human';
-    makeMove();
-}
-
-Human::Human(string player_name){
     getName();
     makeMove();
 }
 
+Human::Human(string player_name){
+    name = player_name;
+    makeMove();
+}
+
 string Human::getName(){
+    name = "Human";
+    return name;
+}
+
+char makeMove(){
     
 }

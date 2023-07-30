@@ -1,4 +1,10 @@
 #include <iostream>
 #include "Player.h"
 
-Player::
+char Player::makeMove(){
+
+}
+
+string Player::getName(){
+    
+}

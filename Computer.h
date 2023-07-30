@@ -1,4 +1,5 @@
 #include<iostream>
+#pragma once
 #include "Player.h"
 using std::string;
 

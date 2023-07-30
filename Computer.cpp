@@ -9,12 +9,13 @@ Computer::Computer(){
 }
 
 char Computer::makeMove(){
-    move = "R";
+    move = 'R';
     return move;
 }
 
 string Computer::getName(){
-    
+    name = "Computer"
+    return name;
 }
 
 

@@ -1,23 +1,24 @@
 #include<iostream>
+#include<string>
 #include"Player.h"
 #include"Human.h"
-using std::string;
+
 
 Human::Human(){
     getName();
     makeMove();
 }
 
-Human::Human(string player_name){
+Human::Human(std::string player_name){
     name = player_name;
     makeMove();
 }
 
-string Human::getName(){
+std::string Human::getName(){
     name = "Human";
     return name;
 }
 
 char makeMove(){
-    
+    cout<<"Enter move:"
 }

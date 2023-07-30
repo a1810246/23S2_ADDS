@@ -1,15 +1,16 @@
 #include<iostream>
+#include<string>
 #pragma once
 #include "Player.h"
-using std::string;
+
 
 class Computer : public Player{
     public:
         Computer();
         char makeMove();
-        string getName();
+        std::string getName();
 
     private:
-        string name;
+        std::string name;
         char move;
 };

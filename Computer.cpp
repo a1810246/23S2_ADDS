@@ -1,7 +1,8 @@
 #include<iostream>
+#include<string>
 #include"Player.h"
 #include"Computer.h"
-using std::string;
+
 
 Computer::Computer(){
     getName();
@@ -13,7 +14,7 @@ char Computer::makeMove(){
     return move;
 }
 
-string Computer::getName(){
+std::string Computer::getName(){
     name = "Computer";
     return name;
 }

@@ -1,9 +1,9 @@
 #include<iostream>
+#include<string>
 #pragma once
-using std::string;
 
 class Player{
     public:
         virtual char makeMove();
-        virtual string getName();
+        virtual std::string getName();
 };

@@ -5,6 +5,6 @@ using namespace std;
 
 int main(){
     Human test1("test");
-    Computer c1();
+    Computer c1;
     return 0;
 }

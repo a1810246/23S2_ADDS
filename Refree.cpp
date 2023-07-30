@@ -15,9 +15,10 @@ Player* Refree::refGame(Player* player1, Player* player2){
     }
     if(move_human == 'S'){
         std::cout<<player2->getName() <<"Wins."<<std::endl;
-        return 
+        return player2;
     }
     if(move_human == 'P'){
         std::cout<<player1->getName() <<"Wins."<<std::endl;
+        return player1;
     }
 }

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "Player.h"
 
 char Player::makeMove(){
@@ -6,5 +7,5 @@ char Player::makeMove(){
 }
 
 string Player::getName(){
-    
+
 }

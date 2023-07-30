@@ -1,13 +1,6 @@
 #include<iostream>
-#include<string>
-#include "Player.h"
+#include"Player.h"
+#include"Computer.h"
 
-class Computer : public Player{
-    public:
-        char makeMove();
-        string getName();
 
-    private:
-        string name;
-        char move;
-};
+

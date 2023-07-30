@@ -14,7 +14,7 @@ char Computer::makeMove(){
 }
 
 string Computer::getName(){
-    name = "Computer"
+    name = "Computer";
     return name;
 }
 

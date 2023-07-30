@@ -4,7 +4,7 @@
 
 
 Human::Human(){
-    getName();
+    name = "Human";
     makeMove();
 }
 
@@ -14,7 +14,6 @@ Human::Human(std::string player_name){
 }
 
 std::string Human::getName(){
-    name = "Human";
     return name;
 }
 

@@ -4,7 +4,7 @@
 
 
 Computer::Computer(){
-    getName();
+    name = "Computer";
     makeMove();
 }
 
@@ -14,7 +14,6 @@ char Computer::makeMove(){
 }
 
 std::string Computer::getName(){
-    name = "Computer";
     return name;
 }
 

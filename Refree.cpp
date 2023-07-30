@@ -13,9 +13,9 @@ Player* Refree::refGame(Player* player1, Player* player2){
         std::cout<<"It's a Tie."<<std::endl;
     }
     if(move_human == 'S'){
-        std::cout<<player2->getName() <<"Wins!"<<std::endl;
+        std::cout<<player2->getName() <<"Wins."<<std::endl;
     }
     if(move_human == 'P'){
-        std::cout<<player1->getName()
+        std::cout<<player1->getName() <<"Wins."<<std::endl;
     }
 }

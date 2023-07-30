@@ -1,7 +1,8 @@
 #include<iostream>
+#include<string>
 #pragma once
-#include string
-using namespace std;
+
+
 
 class Player{
     public:

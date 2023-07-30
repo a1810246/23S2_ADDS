@@ -1,7 +1,12 @@
 #include<iostream>
-using namespace std;
+#include "Player.h"
 
-int main(){
-    cout<<"test"<<endl;
-    return 0;
-}
+class Computer : public Player{
+    public:
+        char makeMove();
+        string getName();
+
+    private:
+        string name;
+        char move;
+};

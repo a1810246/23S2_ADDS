@@ -1,6 +1,6 @@
 #include<iostream>
-#include<string>
 #pragma once
+using std::string;
 
 class Player{
     public:

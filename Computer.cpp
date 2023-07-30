@@ -1,7 +1,7 @@
 #include<iostream>
-#include<string>
 #include"Player.h"
 #include"Computer.h"
+using std::string;
 
 Computer::Computer(){
     getName();

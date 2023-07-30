@@ -1,6 +1,6 @@
 #include<iostream>
-#include<string>
 #include "Player.h"
+using std::string;
 
 class Computer : public Player{
     public:

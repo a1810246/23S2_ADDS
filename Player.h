@@ -4,5 +4,6 @@ using namespace std;
 
 class Player{
     public:
-        virtual 
-}
+        virtual char makeMove( );
+        virtual string getName( );
+};

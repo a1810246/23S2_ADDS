@@ -21,5 +21,4 @@ Player* Referee::refGame(Player* player1, Player* player2){
         //std::cout<<player1->getName() <<std::endl;
         return player2;
     }
-    Player * winner =
 }

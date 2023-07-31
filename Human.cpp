@@ -5,9 +5,9 @@
 
 Human::Human(){
     name = "Human";
-    char move;
-    std::cin >> move;
-    
+    char choose;
+    std::cin >> choose;
+    move = choose;
 }
 Human::Human(std::string player_name){
     name = player_name;

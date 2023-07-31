@@ -13,5 +13,6 @@ class Human : public Player{
 
     private:
         std::string name;
+        char move;
 };
 

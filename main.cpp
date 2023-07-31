@@ -12,6 +12,6 @@ int main(){
     Referee ref;
 
     //cout<<test2.getName()<<endl;
-    ref.
+    ref.refGame(test1, test2);
     return 0;
 }

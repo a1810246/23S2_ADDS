@@ -13,11 +13,11 @@ Player* Referee::refGame(Player* player1, Player* player2){
         std::cout<<"Tie"<<std::endl;
         return nullptr;
     }
-    if(move_human == 'S'){
+    if(move_human == 'P'){
         std::cout<<player2->getName() <<std::endl;
         return player2;
     }
-    if(move_human == 'P'){
+    if(move_human == 'S'){
         std::cout<<player1->getName() <<std::endl;
         return player1;
     }

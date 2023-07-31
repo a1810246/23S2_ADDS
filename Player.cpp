@@ -4,9 +4,9 @@
 
 
 char Player::makeMove(){
-
+    return 0;
 }
 
 std::string Player::getName(){
-
+    return 0;
 }

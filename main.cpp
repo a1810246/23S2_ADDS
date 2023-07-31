@@ -2,7 +2,7 @@
 #include<string>
 #include"Human.h"
 #include"Player.h"
-#include"Refree.h"
+#include"Referee.h"
 #include"Computer.h"
 using namespace std;
 

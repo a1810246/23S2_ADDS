@@ -11,7 +11,9 @@ Human::Human(){
 }
 Human::Human(std::string player_name){
     name = player_name;
-    makeMove();
+    char choose;
+    std::cin >> choose;
+    move = choose;
 }
 
 std::string Human::getName(){

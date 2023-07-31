@@ -9,8 +9,9 @@ using namespace std;
 int main(){
     Human test1;
     Computer test2;
+    Referee ref;
 
-    cout<<test1.getName()<<endl;
+    cout<<test2.getName()<<endl;
 
     return 0;
 }

@@ -5,9 +5,10 @@
 
 Human::Human(){
     name = "Human";
-    makeMove();
+    char move;
+    std::cin >> move;
+    
 }
-
 Human::Human(std::string player_name){
     name = player_name;
     makeMove();
@@ -18,7 +19,5 @@ std::string Human::getName(){
 }
 
 char Human::makeMove(){
-    char move;
-    std::cin >> move;
     return move;
 }

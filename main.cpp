@@ -19,7 +19,5 @@ int main(){
         std::cout << result->getName()<< std::endl;
     }
 
-    delete test1;
-    delete test2;
     return 0;
 }

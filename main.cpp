@@ -7,8 +7,10 @@
 using namespace std;
 
 int main(){
+    Human test1;
+    Computer test2;
     Player* test1 = new Human();
-    Player* test2 = new Computer();
+    Player* test2 = test2.makeMove();
     Referee ref;
 
     //cout<<test2.getName()<<endl;

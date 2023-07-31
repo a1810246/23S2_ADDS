@@ -15,10 +15,10 @@ Player* Referee::refGame(Player* player1, Player* player2){
     }
     if(move_human == 'P'){
         std::cout<<player2->getName() <<std::endl;
-        return player2;
+        return player1;
     }
     if(move_human == 'S'){
         std::cout<<player1->getName() <<std::endl;
-        return player1;
+        return player2;
     }
 }

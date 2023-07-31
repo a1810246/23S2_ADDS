@@ -11,7 +11,7 @@ int main(){
     Computer test2;
     Referee ref;
 
-    cout<<test2.getName()<<endl;
-
+    //cout<<test2.getName()<<endl;
+    ref.
     return 0;
 }

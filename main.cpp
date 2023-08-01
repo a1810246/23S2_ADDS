@@ -19,7 +19,6 @@ int main(){
     Player * result=nullptr;
     int i;
 
-    //test2 = new Computer();
     for (i=0;i<4;i++){
 
         test1 = new Human();
